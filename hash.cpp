@@ -6,9 +6,9 @@ int main() {
     std::unordered_map<std::string, int> myMap;
     
     // Добавляем элементы
-    myMap["one"] = 1;
-    myMap["two"] = 2;
-    myMap["three"] = 3;
+    myMap["apple"] = 3;
+    myMap["banana"] = 2;
+    myMap["orange"] = 1;
     
     // Выводим все элементы
     for (const auto& element : myMap) {
